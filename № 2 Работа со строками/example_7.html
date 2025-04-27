@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Программирование в среде JavaScript</title>
+</head>
+<body>
+	<header>
+		<h1 align="center">Работа со строками</h1>
+	</header>
+	
+	<h2>Welcome pechora-PROger</h2>
+
+	<footer align = "center">
+
+		<a href="https://code.mu/ru/javascript/book/prime/" target="__blank">Учебник по JS</a>
+	</footer>
+
+
+	<script>
+		// поиск индекса заглавной 'О', ближайшей к концу строки
+		// такая буква в слове - 'PROger'
+		// отсчет начинается слева, с позиции - 0 
+		console.log("Welcome pechora-PRO" . lastIndexOf("O")); // 18
+
+		// поиск индекса строчной 'о', ближайшей к концу строки
+		// такая буква в слове - 'pechora'
+		// отсчет начинается слева, с позиции - 0 
+		console.log("Welcome pechora-PRO" . lastIndexOf("o")); // 12
+
+		// поиск индекса строчной 'о', ближайшей к концу строки
+		// причем, строка обрезается вторым аргументом
+		// фактически поиск идет в строке 'Welcome pec'
+		// тогда, ближайшая к концу строки 'о' в слове 'Welcome'		
+		console.log("Welcome pechora-PRO" . lastIndexOf("o", 10)); // 4
+	</script>
+
+</body>
+</html>
