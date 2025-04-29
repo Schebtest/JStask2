@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Программирование в среде JavaScript</title>
+
+	<script>
+		var x = 27;
+		var y = 27;
+
+		console.log(x == y); // true
+		console.log(x === y); //true
+		
+		console.log("----------");
+		
+		x = 31;
+		y = new Number(31);
+	
+		console.log(x == y); // true
+		console.log(x === y); // false
+		
+		// x и y равны по значению, но не равны по типу (number и object)
+	</script>
+
+</head>
+<body>
+	<header>
+		<h1 align="center">Работа с числами</h1>
+	</header>
+
+	<footer align = "center">
+
+		<a href="https://code.mu/ru/javascript/book/prime/" target="__blank">Учебник по JS</a>
+	</footer>
+		
+</body>
+</html>
