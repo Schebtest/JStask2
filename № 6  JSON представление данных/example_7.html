@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Программирование в среде JavaScript</title>
+</head>
+<body>
+	<header>
+		<h1 align="center">JSON представление данных</h1>
+	</header>
+	
+	<script>
+		// число в JSON остаётся числом
+		console.log (JSON.stringify(25)); // 25
+
+		// строка в JSON по-прежнему остаётся строкой, но в двойных кавычках
+		console.log (JSON.stringify('test')) // "test"
+
+		console.log (JSON.stringify(true)); // true
+
+		console.log (JSON.stringify(null)); // null
+
+		console.log (JSON.stringify([1, 2, 3])); // [1,2,3]
+
+		console.log (JSON.stringify({a:1, b:'2', c:'три'})); // {"a":1,"b":"2","c":"три"}
+	</script>	
+
+<footer align = "center">
+
+	<a href="https://code.mu/ru/javascript/book/prime/" target="__blank">Учебник по JS</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Программирование в среде JavaScript</title>
+</head>
+<body>
+	<header>
+		<h1 align="center">JSON представление данных</h1>
+	</header>
+	
+	<script>
+		// определение JS-объекта
+		let personJS = {
+			surname : "Бородина", 
+			name : "Ксения", 
+			patronymic : "Алексеевна", 
+			post : "Преподаватель"
+		};
+		
+		// определение JSON-объекта		
+		// для записи в несколько строк используем обратные кавычки
+		let personJSON = `
+		{
+			"surname": "Бородина", 
+			"name": "Ксения", 
+			"patronymic": "Алексеевна", 
+			"post": "Преподаватель"
+		}`;
+	</script>	
+		
+		<footer align = "center">
+
+			<a href="https://code.mu/ru/javascript/book/prime/" target="__blank">Учебник по JS</a>
+		</footer>		
+</body>
+</html>
